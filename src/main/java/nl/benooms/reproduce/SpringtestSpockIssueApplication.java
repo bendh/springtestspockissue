@@ -9,4 +9,6 @@ public class SpringtestSpockIssueApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SpringtestSpockIssueApplication.class, args);
 	}
+
+
 }
