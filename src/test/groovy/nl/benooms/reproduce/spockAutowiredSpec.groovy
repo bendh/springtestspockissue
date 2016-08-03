@@ -11,7 +11,7 @@ import spock.lang.Specification
  * Created by Ben Ooms on 2-8-2016.
  *
  */
-@SpringApplicationConfiguration(TestConfiguration)
+@SpringApplicationConfiguration(SpringtestSpockIssueApplication)
 @WebIntegrationTest(randomPort = true)
 class spockAutowiredSpec extends Specification {
 

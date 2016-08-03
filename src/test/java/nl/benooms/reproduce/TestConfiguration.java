@@ -13,7 +13,7 @@ import org.springframework.web.client.RestTemplate;
 /**
  * Created by Ben Ooms on 2-8-16.
  */
-@SpringBootApplication
+@org.springframework.boot.test.context.TestConfiguration
 public class TestConfiguration {
     @Autowired
     ApplicationContext applicationContext;
