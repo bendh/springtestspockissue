@@ -52,6 +52,11 @@
 			<artifactId>spock-spring</artifactId>
 			<version>1.0-groovy-2.4</version>
 		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.16.8</version>
+		</dependency>
 	</dependencies>
 
 	<build>
@@ -82,7 +87,7 @@
 					<useFile>false</useFile>
 					<includes>
 						<include>**/*Spec.class</include>
-						<include>**/*Test.class</include>
+						<include>**/*Tests.class</include>
 					</includes>
 				</configuration>
 			</plugin>
